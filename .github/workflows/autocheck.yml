@@ -15,7 +15,7 @@ jobs:
     steps:
       - name: 'Checkout codes'
         uses: actions/checkout@v3
-      - uses: actions/setup-node@v3-beta
+      - uses: actions/setup-node@v2-beta
         with:
           node-version: '16'
       - name: 'Setup python'
