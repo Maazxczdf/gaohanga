@@ -14,9 +14,9 @@ jobs:
     
     steps:
       - name: 'Checkout codes'
-        uses: actions/checkout@v2-beta
+        uses: actions/checkout@v2
       - name: 'Setup python'
-        uses: actions/setup-python@v2-beta
+        uses: actions/setup-python@v2
         with:
           python-version: '3.x'
       - name: 'Install dependencies'
