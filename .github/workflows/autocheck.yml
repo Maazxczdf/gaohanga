@@ -1,19 +1,4 @@
 name: 'JLU autocheck bot'
-$ source ~/.bashrc
-
-$ nvm --version
-
-# 升级到到定制版
-
-$ nvm install 13.10.0
-
-# 升级到最新版
-
-$ nvm install lastest
-
-# 升级到稳定版
-
-$ nvm install stable
 
 on:
   push:
